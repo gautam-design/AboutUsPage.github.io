@@ -1,0 +1,122 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+/* Use flex-box property*/
+.content{
+    height: 100%;
+    width: 100%;
+    position: relative;
+    display: flex;
+}
+.first{
+    width: 50%;
+    height: 100%;
+    background-color: #d11376;
+}
+.second{
+    width: 50%;
+    height: 100%;
+    background-color:white ;
+}
+.third{
+    position: absolute;
+    width: 30%;
+    height: 70%;
+    top: 15%;
+    left: 25%;
+    background-color:  #f24968;
+    text-align: center;
+    box-shadow: 4px 1px 4px grey;
+}
+.about{
+margin: auto;
+   margin-top: 25%;
+    width: 70%;
+    height: 70%;
+    text-align: center;
+}
+.btn{
+    margin-right: 20px;
+    padding: 5px 15px;
+    border-radius: 20px;
+    box-shadow: 2px 2px 2px gray;
+}
+.btn1{
+    color: white;
+    background-color: rgb(218, 40, 99);
+}
+.btn2{
+    color: black;
+    background-color: white;
+}
+.btn2:hover{
+    color: white;
+    background-color: rgb(218, 40, 99);
+    transition: 0.5s ease-in-out ;
+}
+ .btn1:hover{
+    color: black;
+    background-color: white;
+    transition: 0.5s ease-in-out;
+}
+.ex{
+    color: #e02285;
+    font-weight:bold;
+}
+.h1{
+    margin-bottom: 20px;
+    font-weight:bold;
+    font-size: 50px;
+}
+.third img{
+    border-radius: 50px;
+    width: 100px;
+    height: 100px;
+    
+    margin-top: 20%;
+}
+.third img:hover{
+    transform: translateY(-10px);
+    transition:0.5s ease-in;
+}
+.line{
+    color: aliceblue;
+    width: 60%;
+    size: 5;
+    margin: auto;
+}
+.role{
+    margin-top: 10px;
+    letter-spacing: 2px;
+    font-size: 20px;
+}
+.footer{
+    margin-top: 25%;
+    height:10%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+}
+.icon{
+     font-size: 20px;
+     padding: 5px;
+    }
+    .icon:hover{
+        
+        border-radius: 50px;
+        background-color: #d11376;
+        transition: 0.4s ease-in-out;
+    }
+.detail{
+    margin-top: 7%;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+}
